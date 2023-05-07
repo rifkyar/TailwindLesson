@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-accept{
+    @apply bg-violet-500 rounded py-2 px-8 text-white;
+}
+.btn-accept:hover{
+    @apply bg-violet-600;
+}
+.btn-accept:active{
+    @apply bg-violet-700;
+}
+.btn-accept:focus{
+    @apply outline-none ring ring-violet-300;
+}
+
+.btn-deny{
+    @apply bg-pink-500 rounded py-2 px-8 text-white;
+}
+.btn-deny:hover{
+    @apply bg-pink-600;
+}
+.btn-deny:active{
+    @apply bg-pink-700;
+}
+.btn-deny:focus{
+    @apply outline-none ring ring-pink-300;
+}

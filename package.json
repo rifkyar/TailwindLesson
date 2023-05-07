@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/style.css -o ./dist/style.css",
+    "watch:css": "nodemon --watch ./src/style.css -x \"npm run build:css\"",
+    "serve":"npm run watch:css"
+  }
+}
